@@ -9,5 +9,5 @@ int main(int argc, char *argv[]) //命令行参数怎么搞
         return 0;
     }
 
-
+    transfer_file(argv[1], argv[2]);
 }
